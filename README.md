@@ -1,19 +1,6 @@
-Harmony theme for NodeBB
+Custom Theme for CMU NodeBB Team Blue
 ====================
 
-The Harmony theme is the default theme for NodeBB for versions spanning v3.0.0 onwards.
+This the frontend repo for all tpl changes made to NodeBB by Team Blue.
 
-## Issues
-
-Issues are tracked in [the main project issue tracker](https://github.com/NodeBB/NodeBB/issues?q=is%3Aopen+is%3Aissue+label%3Athemes).
-
-## Screenshots
-
-### Categories
-<img height="450" src="screenshots/categories.png">
-
-### Recent
-<img height="450" src="screenshots/recent.png">
-
-### Topic
-<img height="450" src="screenshots/topic.png">
+To use this repo's tpl, follow this [guide](https://docs.google.com/document/d/1HCb6FL6noy3CYv2HG1Ea3ZHHN1uLghwcArk_c2TSrzg/edit)
