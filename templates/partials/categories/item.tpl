@@ -3,14 +3,12 @@
 
 	<div class="d-flex col-lg-7 gap-2 gap-lg-3">
 		<div class="flex-shrink-0">
-			{buildCategoryIcon(@value, "40px", "rounded-1")}
+		{buildCategoryIcon(@value, "40px", "rounded-1")}
 		</div>
 		<div class="flex-grow-1 d-flex flex-wrap gap-1">
 			<h2 class="title text-break fs-4 fw-semibold m-0 tracking-tight w-100">
 				<!-- IMPORT partials/categories/link.tpl -->
 			</h2>
-			
-			<!-- Category Description -->
 			{{{ if ./descriptionParsed }}}
 			<div class="description text-muted text-sm w-100">
 				{./descriptionParsed}
@@ -20,7 +18,7 @@
 			<!-- Anonymous User Block -->
 			<div component="anonymous-user" class="w-100 border-bottom py-3 py-lg-4 gap-lg-0 gap-2 d-flex flex-column flex-lg-row align-items-start anonymous-user-{./uid}">
 				<meta itemprop="name" content="Anonymous User">
-
+				
 				<div class="d-flex col-lg-7 gap-2 gap-lg-3">
 					<!-- Anonymous Icon -->
 					<div class="flex-shrink-0">
