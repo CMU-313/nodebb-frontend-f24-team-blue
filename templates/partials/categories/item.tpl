@@ -3,7 +3,7 @@
 
 	<div class="d-flex col-lg-7 gap-2 gap-lg-3">
 		<div class="flex-shrink-0">
-		{buildCategoryIcon(@value, "40px", "rounded-1")}
+			{buildCategoryIcon(@value, "40px", "rounded-1")}
 		</div>
 		<div class="flex-grow-1 d-flex flex-wrap gap-1">
 			<h2 class="title text-break fs-4 fw-semibold m-0 tracking-tight w-100">
@@ -14,43 +14,6 @@
 				{./descriptionParsed}
 			</div>
 			{{{ end }}}
-
-			<!-- Anonymous User Block -->
-			<div component="anonymous-user" class="w-100 border-bottom py-3 py-lg-4 gap-lg-0 gap-2 d-flex flex-column flex-lg-row align-items-start anonymous-user-{./uid}">
-				<meta itemprop="name" content="Anonymous User">
-				
-				<div class="d-flex col-lg-7 gap-2 gap-lg-3">
-					<!-- Anonymous Icon -->
-					<div class="flex-shrink-0">
-						<i class="fa fa-user-secret" style="font-size: 40px; color: #777;"></i>
-					</div>
-
-					<!-- Anonymous User Information -->
-					<div class="flex-grow-1 d-flex flex-wrap gap-1">
-						<!-- Anonymous Title - Clickable -->
-						<h2 class="title text-break fs-4 fw-semibold m-0 tracking-tight w-100">
-							<a href="{config.relative_path}/category/{./slug}" class="text-reset">
-								Anonymous User
-							</a>
-						</h2>
-						
-						<!-- Anonymous Description -->
-						<div class="description text-muted text-sm w-100">
-							This user has chosen to remain anonymous.
-						</div>
-					</div>
-				</div>
-				
-				<!-- Anonymous User Metadata -->
-				<div class="d-flex col-lg-5 col-12 align-content-stretch">
-					<div class="meta stats d-none d-lg-grid col-6 gap-1 pe-2 text-muted">
-						<div class="card card-header border-0 p-2 overflow-hidden rounded-1 d-flex flex-column align-items-center">
-							<span class="fs-5 ff-secondary lh-1">0</span>
-							<span class="d-none d-xl-flex text-lowercase text-xs">Posts</span>
-						</div>
-					</div>
-				</div>
-			</div>
 
 			{{{ if !config.hideSubCategories }}}
 			{{{ if ./children.length }}}
