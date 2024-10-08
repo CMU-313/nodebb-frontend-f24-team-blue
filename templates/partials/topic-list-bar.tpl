@@ -5,6 +5,12 @@
 				<div class="d-flex align-items-center me-auto">
 					<input type="text" class="form-control form-control-sm" placeholder="Search...">
 				</div>
+				
+				<div class="d-flex align-items-center me-auto">
+					<input class="form-check-input" type="checkbox" id="viewAnonymousPosts" />
+        			<label class="form-check-label" for="viewAnonymousPosts">View Anonymous Posts</label>
+				</div>
+
 				{{{ if template.category }}}
 				<!-- IMPORT partials/category/watch.tpl -->
 				<!-- IMPORT partials/tags/filter-dropdown-left.tpl -->
